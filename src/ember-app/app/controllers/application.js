@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-h-r-должность-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-должность-l.title'),
-            icon: 'chart line',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-h-r-отдел-l',
@@ -40,37 +40,37 @@ export default Controller.extend({
             link: 'i-i-s-h-r-анкета-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-анкета-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-анкета-l.title'),
-            icon: 'tasks',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-h-r-т-ч-отчета-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-т-ч-отчета-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-т-ч-отчета-l.title'),
-            icon: 'chart bar',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-h-r-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-сотрудник-l.title'),
-            icon: 'file',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-h-r-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-сотрудник-l.title'),
-            icon: 'chart line',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-h-r-анкета-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-анкета-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-анкета-l.title'),
-            icon: 'chart bar',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-h-r-должность-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-должность-l.title'),
-            icon: 'paperclip',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-h-r-т-ч-отчета-l',
@@ -82,6 +82,7 @@ export default Controller.extend({
             link: 'i-i-s-h-r-отдел-l',
             caption: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-отдел-l.caption'),
             title: i18n.t('forms.application.sitemap.отдел-кадров.i-i-s-h-r-отдел-l.title'),
+            icon: 'suitcase',
             children: null
           }]
         }

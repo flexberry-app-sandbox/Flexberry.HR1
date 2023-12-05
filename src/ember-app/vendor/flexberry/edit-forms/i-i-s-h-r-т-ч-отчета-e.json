@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Т ч_отчета",
+  "name": "IISHRТЧ_отчетаE",
+  "className": "ТЧ_отчетаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-h-r-т-ч-отчета",
+      "modelProjection": "ТЧ_отчетаE"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+﻿{
+  "name": "IISHRТЧ_отчета",
+  "modelName": "i-i-s-h-r-т-ч-отчета",
+  "className": "ТЧ_отчета",
+  "nameSpace": "IIS.HR",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "результат",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-h-r-сотрудник",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "отчет",
+      "relatedTo": "i-i-s-h-r-отчет",
+      "inverse": "тЧ_отчета"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ТЧ_отчетаE",
+      "modelName": "i-i-s-h-r-т-ч-отчета",
+      "attrs": [
+        {
+          "name": "результат",
+          "caption": "Результат",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Сотрудник",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-h-r-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ОтчетE",
+          "caption": "Отчет",
+          "name": "отчет",
+          "relatedTo": "i-i-s-h-r-отчет",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ТЧ_отчетаL",
+      "modelName": "i-i-s-h-r-т-ч-отчета",
+      "attrs": [
+        {
+          "name": "результат",
+          "caption": "Результат",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-h-r-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

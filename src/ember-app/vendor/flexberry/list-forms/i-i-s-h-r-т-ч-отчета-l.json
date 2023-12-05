@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-h-r-т-ч-отчета-e",
+  "editForm": "i-i-s-h-r-т-ч-отчета-e",
+  "external": false,
+  "caption": "Т ч_отчета",
+  "name": "IISHRТЧ_отчетаL",
+  "className": "ТЧ_отчетаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-h-r-т-ч-отчета",
+      "modelProjection": "ТЧ_отчетаL"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+﻿{
+  "applicationCaption": "HR",
+  "applicationTitle": "HR",
+  "items": [
+    {
+      "link": null,
+      "menuName": "отдел-кадров",
+      "caption": "Отдел кадров",
+      "title": "Отдел кадров",
+      "children": [
+        {
+          "link": "i-i-s-h-r-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-отдел-l",
+          "menuName": null,
+          "caption": "Отдел",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-анкета-l",
+          "menuName": null,
+          "caption": "Анкета",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-т-ч-отчета-l",
+          "menuName": null,
+          "caption": "Т ч_отчета",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-сотрудник-l",
+          "menuName": null,
+          "caption": "СотрудникL",
+          "title": "Сотрудник",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-анкета-l",
+          "menuName": null,
+          "caption": "АнкетаL",
+          "title": "Анкета",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-должность-l",
+          "menuName": null,
+          "caption": "ДолжностьL",
+          "title": "Должность",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-т-ч-отчета-l",
+          "menuName": null,
+          "caption": "ТЧ_отчетаL",
+          "title": "Т ч_отчета",
+          "children": null
+        },
+        {
+          "link": "i-i-s-h-r-отдел-l",
+          "menuName": null,
+          "caption": "ОтделL",
+          "title": "Отдел",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

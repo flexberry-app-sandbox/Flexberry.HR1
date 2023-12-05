@@ -1,0 +1,63 @@
+﻿{
+  "name": "IISHRОтчет",
+  "modelName": "i-i-s-h-r-отчет",
+  "className": "Отчет",
+  "nameSpace": "IIS.HR",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iD",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата_проверки",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "тЧ_отчета",
+      "relatedTo": "i-i-s-h-r-т-ч-отчета",
+      "inverse": "отчет"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтчетE",
+      "modelName": "i-i-s-h-r-отчет",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата_проверки",
+          "caption": "Дата_проверки",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
